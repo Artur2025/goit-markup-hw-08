@@ -1,0 +1,82 @@
+.footer {
+  display: flex;
+}
+.icon-footer {
+  width: 106px;
+  height: 60px;
+}
+.box-adres {
+  width: 231px;
+}
+.text-adress {
+  font-size: 14px;
+  line-height: 1.72;
+  color: var(--color-white);
+  padding-bottom: 9px;
+}
+.address-link {
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 9px;
+}
+.address-link:hover {
+  color: var(--color-white);
+}
+footer {
+  background: var(--background-footer);
+}
+
+footer .container {
+  background: inherit;
+  padding-top: 36px;
+  padding-bottom: 60px;
+  display: flex;
+  align-items: baseline;
+}
+.adress-list {
+  font-style: normal;
+}
+.foter-ikons {
+  width: 206px;
+  margin-left: 70px;
+}
+.footer-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.172;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+.foter-ikons .ikons {
+  background: rgba(255, 255, 255, 0.1);
+  fill: #ffffff;
+}
+.foter-ikons .ikons:hover {
+  background: var(--color-accent);
+}
+.foter-ikons .ikons-list {
+  padding: 0;
+}
+.adress-list {
+  font-style: normal;
+}
+.foter-ikons {
+  width: 206px;
+  margin-left: 70px;
+}
+.footer-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.172;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+.foter-ikons .ikons {
+  background: rgba(255, 255, 255, 0.1);
+  fill: #ffffff;
+}
+.foter-ikons .ikons:hover {
+  background: var(--color-accent);
+}
+.foter-ikons .ikons-list {
+  padding: 0;
+}

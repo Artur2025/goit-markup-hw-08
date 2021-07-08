@@ -1,0 +1,30 @@
+.nav {
+  margin-left: 93px;
+}
+.nav-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.172;
+  display: flex;
+}
+
+.nav-list .nav-item + .nav-item {
+  margin-left: 50px;
+}
+.nav-list a:hover,
+.nav-list a:focus {
+  color: var(--color-accent);
+}
+.nav-list .nav-item .current {
+  color: var(--color-accent);
+}
+.current::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  position: absolute;
+  bottom: 0;
+  background-color: var(--color-accent);
+}
