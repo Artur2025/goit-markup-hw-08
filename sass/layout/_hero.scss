@@ -1,5 +1,5 @@
 .hero-box {
-  max-width: 480px;
+  // max-width: 480px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -99,5 +99,5 @@
 }
 .hero-button:hover,
 .hero-button:focus {
-  background: var(--color-focus);
+  background: $color-focus;
 }
