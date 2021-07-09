@@ -1,5 +1,4 @@
 .hero-box {
-  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -9,7 +8,7 @@
       rgba(58, 50, 47, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../images-2/hero-phone.jpg);
+    url(../../images-2/hero-phone-2x.jpg);
 
   background-repeat: no-repeat;
   background-position: center;
@@ -22,7 +21,7 @@
         rgba(58, 50, 47, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../images-2/hero-tablet.jpg);
+      url(../../images-2/hero-tablet.jpg);
     background-color: #000000;
   }
   @media screen and (min-width: 1200px) {
@@ -32,7 +31,7 @@
         rgba(58, 50, 47, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../images-2/hero.jpg);
+      url(../../images-2/hero.jpg);
     background-color: #000000;
   }
   @media screen and (max-width: 767px) and (min-device-pixel-ratio: 2),
@@ -43,7 +42,7 @@
         rgba(58, 50, 47, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../images-2/hero-phone-2x.jpg);
+      url(../../images-2/hero-phone-2x.jpg);
     background-color: #000000;
   }
 
@@ -55,7 +54,7 @@
         rgba(58, 50, 47, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../images-2/hero-tablet-2x.jpg);
+      url(../../images-2/hero-tablet-2x.jpg);
     background-color: #000000;
   }
 
@@ -67,7 +66,7 @@
         rgba(58, 50, 47, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../images-2/hero-2x.jpg);
+      url(../../images-2/hero-2x.jpg);
     background-color: #000000;
   }
 }
