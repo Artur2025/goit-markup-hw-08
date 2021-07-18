@@ -3,15 +3,20 @@
   font-weight: bold;
   font-size: 26px;
   line-height: 1.174;
-  color: var(--color-accent);
-  padding-top: 24px;
-  padding-bottom: 25px;
+  color: $clr-accent;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-left: 0;
   display: block;
+  @media screen and (min-width: $tablet) {
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
 }
 .logo-header {
-  color: var(--color-title);
+  color: $clr-title;
 }
 
 .logo-footer {
-  color: var(--color-white);
+  color: $clr-white;
 }

@@ -1,3 +1,14 @@
+$phone: 480px;
+$tablet: 768px;
+$desk: 1170px;
+$clr-accent: rgba(33, 150, 243, 1);
+$clr-focus: rgba(24, 140, 232, 1);
+$clr-title: rgba(33, 33, 33, 1);
+$clr-text: rgba(117, 117, 117, 1);
+$clr-white: #ffffff;
+$bgr-footer: rgba(47, 48, 58, 1);
+$bgr-section-2: #f5f4fa;
+$fill-icons: rgba(175, 177, 184, 1);
 @import "./vendors/normalize";
 @import "./utils/vars";
 @import "./utils/visually-hidden";
@@ -21,3 +32,4 @@
 @import "./layout/form";
 @import "./layout/portfolio-button";
 @import "./layout/portfolio";
+@import "./layout/modal-mobile";

@@ -1,4 +1,7 @@
-.container-work {
+.work-container {
+  @media (max-width: 1170px) {
+    display: none;
+  }
 }
 .work {
   display: flex;

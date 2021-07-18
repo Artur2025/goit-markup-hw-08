@@ -1,82 +1,109 @@
+footer {
+  width: 100%;
+  background: $bgr-footer;
+}
 .footer {
-  display: flex;
+  text-align: center;
+  @media screen and (min-width: $desk) {
+    display: flex;
+    flex-direction: row;
+  }
+  @media screen and (min-width: $desk) {
+    display: flex;
+  }
+}
+.box-adress {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 60px;
+  @media screen and (min-width: $desk) {
+    margin-bottom: 0;
+    text-align: left;
+    width: 231px !important;
+  }
 }
 .icon-footer {
   width: 106px;
   height: 60px;
 }
-.box-adres {
-  width: 231px;
+
+.adress-list {
+  @media screen and (min-width: $desk) {
+    width: 231px;
+  }
 }
 .text-adress {
+  margin-left: auto;
+  margin-right: auto;
   font-size: 14px;
   line-height: 1.72;
-  color: var(--color-white);
+  color: $clr-white;
   padding-bottom: 9px;
+  width: 231px;
 }
 .address-link {
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 9px;
 }
 .address-link:hover {
-  color: var(--color-white);
-}
-footer {
-  background: var(--background-footer);
+  color: $clr-white;
 }
 
 footer .container {
   background: inherit;
   padding-top: 36px;
   padding-bottom: 60px;
-  display: flex;
-  align-items: baseline;
+  @media (min-width: $desk) {
+    display: flex;
+    align-items: baseline;
+  }
 }
 .adress-list {
   font-style: normal;
 }
-.foter-ikons {
-  width: 206px;
-  margin-left: 70px;
+.footer-ikons {
+  width: 100%;
+  margin-left: auto;
+  text-align: center;
+  margin-bottom: 60px;
+
+  @media (min-width: $desk) {
+    width: 206px;
+    margin-left: 70px;
+  }
 }
 .footer-title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.172;
   margin-bottom: 20px;
-  color: #ffffff;
+  color: $clr-white;
+
+  @media (min-width: $desk) {
+    text-align: left;
+  }
 }
-.foter-ikons .ikons {
+.footer-ikons .ikons {
   background: rgba(255, 255, 255, 0.1);
-  fill: #ffffff;
+  fill: $clr-white;
 }
 .foter-ikons .ikons:hover {
-  background: var(--color-accent);
+  background: $clr-accent;
 }
-.foter-ikons .ikons-list {
+.footer-ikons .ikons-list {
   padding: 0;
 }
 .adress-list {
   font-style: normal;
 }
-.foter-ikons {
-  width: 206px;
-  margin-left: 70px;
-}
-.footer-title {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.172;
-  margin-bottom: 20px;
-  color: #ffffff;
-}
-.foter-ikons .ikons {
+
+.footer-ikons .ikons {
   background: rgba(255, 255, 255, 0.1);
-  fill: #ffffff;
+  fill: $clr-white;
 }
-.foter-ikons .ikons:hover {
-  background: var(--color-accent);
+.footer-ikons .ikons:hover {
+  background: $clr-accent;
 }
-.foter-ikons .ikons-list {
+.footer-ikons .ikons-list {
   padding: 0;
 }

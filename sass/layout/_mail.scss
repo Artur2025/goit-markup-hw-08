@@ -1,24 +1,51 @@
 .mail-list {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.172;
-  color: var(--color-text);
-  display: flex;
-  align-items: center;
-  margin-left: auto;
+  display: none;
+
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    flex-direction: column;
+    margin-left: 84px;
+  }
+  @media screen and (min-width: $desk) {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.172;
+    color: $clr-text;
+    display: flex;
+    justify-content: center;
+
+    flex-direction: row;
+    text-align: right;
+    margin-right: 0;
+  }
 }
+
 .mail-list .mail-item + .mail-item {
-  padding-left: 50px;
+  @media screen and (min-width: $desk) {
+    padding-left: 30px;
+  }
 }
 .mail-item:hover {
-  color: var(--color-accent);
-  fill: var(--color-accent);
+  color: $clr-accent;
+  fill: $clr-accent;
 }
 .mail-item {
   display: flex;
   align-items: center;
+  // @media screen and (min-width: $desk) {
+  //   margin-bottom: ;
+  // }
 }
 .mail-item a {
+  padding: 0;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
   margin-left: 10px;
-  fill: var(--color-text);
+  fill: $clr-text;
+  @media screen and (min-width: $desk) {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+  }
 }
